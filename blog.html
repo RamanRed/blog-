@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta name="blog"  description="This is the project website created with the help of html, css, and js">
+        <title>The RedzBlog</title>
+        <link href="./style.css" rel="stylesheet">
+        <link href="" rel="icon" type="image/x-icon">
+    </head>
+    <body>
+        <div class="hearder">
+            <header>
+                <h1 style="color:#6C48C5">Welcome to the </h1>
+                <p style="color:#FEECB3">Where people share their Journey of the Day</p>
+            </header>
+        </div>
+        <div id="Blog-section">
+            <div id="blog">
+                <div>
+                    <span><h2>THe first blog</h2></span>
+                    <img src="../IMAGES file/ayanokoji.jpg" />
+                    <details>
+                        <summary>
+                            <p>blog text</p>
+                        </summary>
+                        <p>This document is intended for developers who want to write applications that can interact with the Blogger API. Blogger is a tool for creating websites that allow people to publish their thoughts on an ongoing basis.</p>
+                        <button class="like">*</button>
+                        <button class="Edit">Edit</button>
+                    </details>    
+                </div>
+            </div>
+            <div id="Add-blog">
+                <form>
+                    <label for="Author">Author</label>
+                    <br>
+                    <input id="Author" />
+                    <br>
+                    <label for="Idea">Idea</label>
+                    <br>
+                    <input id="Idea" />
+                    <br>
+                    <br>
+                    <label for="fileUpload">Choose a file:</label>
+                    <br>
+                    <input type="file" id="fileUpload" name="fileUpload">
+                    <br>
+                    <label for="Link">Image link</label>
+                    <br>
+                    <input id="Link" />
+                    <br>
+                    <label for="Description">Description</label>
+                    <br>
+                    <input id="Description">
+                    <br>
+                    <button >Submit</button>
+                </form>
+            </div>
+        </div>
+        <footer class="footer">
+         <p>&copy;  Copyright</p>
+        </footer>
+        <script src="./blog.js" ></script>
+    </body>
+</html>
